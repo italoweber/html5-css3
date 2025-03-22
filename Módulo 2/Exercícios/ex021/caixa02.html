@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="shortcut icon" href="favicon-css.png" type="image/x-icon">
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(143, 143, 143);
+        margin: 0px;}
+
+        h1{box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.486);}
+
+        header{background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);}
+
+        main{background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);}
+
+        article{background-color: lightgray;
+        padding: 5px;}
+
+        article > aside{background-color: rgb(124, 124, 124);}
+
+        nav{background-color: rgb(61, 61, 61);
+        padding: 3px;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);}
+
+        nav > a{text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 40px;}
+
+        nav > a:hover{text-decoration: underline;}
+
+        footer{background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;}
+
+        footer > p {margin: 0px;}
+
+        div#bola{width: 150px;
+        height: 150px;
+        background-color: white;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: 15px}
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, optio rerum nihil assumenda corrupti ratione ipsa quaerat atque quam, mollitia nam sed perferendis ut praesentium numquam nostrum at, provident consequuntur!</p>
+                <aside>
+                    <p>Artigo escrito por Ítalo Weber</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
